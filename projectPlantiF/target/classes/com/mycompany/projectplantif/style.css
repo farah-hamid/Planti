@@ -1,0 +1,30 @@
+#interface1,#interface2,#interface3{
+    -fx-background-color: Lightgray;
+}
+.button {
+    -fx-background-color: #A6C39C;
+}
+.text-field {
+    -fx-control-inner-background: Silver;
+    -fx-background-radius: 15;
+}
+
+#new-button1,#new-button2,#new-button3,#new-button4,#new-button5,#new-button6{
+    -fx-background-radius: 50%; 
+    -fx-min-width: 30px; 
+    -fx-max-width: 30px; 
+    -fx-background-color: black;
+}
+
+#Hbox1, #Hbox2, #Hbox3 {
+    -fx-background-color: lightgreen;
+}
+#bk,#bk2,#bk3{
+    -fx-background-color: Lightgray;
+}
+#menub,#menub2{
+    -fx-background-color: Lightgray;
+}
+
+
+

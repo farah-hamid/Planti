@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="HomePageProductBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="375.0" style="-fx-background-color: ECECEC;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.projectplantif.HomePageController">
+   <top>
+      <VBox alignment="CENTER" prefHeight="34.0" prefWidth="375.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" text="Planti" textFill="#a6c39c">
+               <font>
+                  <Font name="Niramit SemiBold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: ECECEC;" vbarPolicy="NEVER" BorderPane.alignment="CENTER">
+         <content>
+            <VBox fx:id="vbox" alignment="CENTER" prefHeight="633.0" prefWidth="373.0" style="-fx-background-color: ECECEC;">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <TextField fx:id="searchLbl" prefHeight="32.0" prefWidth="278.0" promptText="Search" style="-fx-background-color: -fx-control-inner-background; -fx-background-color: white;">
+                                 <font>
+                                    <Font size="17.0" />
+                                 </font>
+                              </TextField>
+                              <MediaView fx:id="mediaView" fitHeight="1.0" fitWidth="1.0" />
+                              <ChoiceBox fx:id="choiceBox" prefHeight="25.0" prefWidth="60.0" stylesheets="@sheetStyle.css">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <HBox.margin>
+                                    <Insets left="5.0" right="5.0" />
+                                 </HBox.margin>
+                              </ChoiceBox>
+                           </children>
+                        </HBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label fx:id="WhatDoYouWantLbl" alignment="BOTTOM_LEFT" prefHeight="38.0" prefWidth="332.0" style="-fx-font-weight: bold;" text="What plant do you">
+                                 <font>
+                                    <Font name="Niramit SemiBold" size="25.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets left="20.0" />
+                                 </opaqueInsets>
+                              </Label>
+                              <Label fx:id="WhatDoYouWantLbl1" prefHeight="38.0" prefWidth="332.0" style="-fx-font-weight: bold;" text="want to buy">
+                                 <font>
+                                    <Font name="Niramit SemiBold" size="25.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets left="20.0" />
+                                 </opaqueInsets>
+                              </Label>
+                              <Label fx:id="WhatDoYouWantLbl11" prefHeight="38.0" prefWidth="332.0" style="-fx-font-weight: bold;" text="today?">
+                                 <font>
+                                    <Font name="Niramit SemiBold" size="25.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets left="20.0" />
+                                 </opaqueInsets>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+               </children></VBox>
+         </content>
+      </ScrollPane>
+   </center>
+</BorderPane>

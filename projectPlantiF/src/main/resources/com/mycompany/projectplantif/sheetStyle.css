@@ -1,0 +1,48 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+    
+  .back-icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+.back-icon__row {
+  height: 10px;
+  width: 30px;
+  display: flex;
+}
+.back-icon__elem {
+  height: 8px;
+  width: 8px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  background: red;
+  border-radius: 38%;
+}
+
+
+ .btn { 
+/*        -fx-cursor: pointer; 
+        -fx-border: 1px solid #3498db; */
+        -fx-background-color: transparent; 
+        -fx-height: 50px; 
+        -fx-width: 200px; 
+        -fx-color: #3498db; 
+        -fx-font-size: 1.5em; 
+        /*-fx-box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);*/ 
+    } 
+    
+    
+   
+.choice-box {
+  -fx-background-color: transparent;
+  -fx-mark-color: black; 
+}
+
+ .label{
+     -fx-text-fill: #A6C39C ;
+ }
