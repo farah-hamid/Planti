@@ -80,6 +80,7 @@ details for browsing and purchasing, process orders, and
 securely handle payment transactions. The database acts as a
 central repository, allowing the application to access and
 manipulate the necessary data efficiently.
+
 ![d](https://github.com/farah-hamid/Planti/assets/89980747/50c43ca3-0dc7-4897-8060-3fc1ec5d6c61)
 
 
